@@ -22,6 +22,7 @@ jobs:
         upstream_repository: ConsenSys/smart-contract-best-practices
         upstream_branch: master
         target_branch: master
-
+        git_pull_args: --ff-only
+  
     - name: Timestamp
       run: date
