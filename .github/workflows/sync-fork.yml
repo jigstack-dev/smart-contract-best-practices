@@ -22,7 +22,7 @@ jobs:
         upstream_repository: ConsenSys/smart-contract-best-practices
         upstream_branch: master
         target_branch: master
-        git_pull_args: --ff-only
+        git_pull_args: --allow-unrelated-histories
   
     - name: Timestamp
       run: date
